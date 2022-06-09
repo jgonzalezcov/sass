@@ -1,0 +1,17 @@
+@import '../sass/vendors/node_modules/bootstrap/scss/bootstrap.scss';
+
+.c_style {
+  background: $dark;
+  color: $light;
+  padding: 1em;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .card {
+    @extend.c_style;
+  }
+}
