@@ -4,6 +4,7 @@
  * Copyright 2011-2022 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+@import url("https://fonts.googleapis.com/css2?family=Quintessential&display=swap");
 :root {
   --bs-blue: #0d6efd;
   --bs-indigo: #6610f2;
@@ -7443,22 +7444,7 @@ fieldset:disabled .btn {
   }
 }
 
-.c_style, .card {
-  background: #212529;
-  color: #f8f9fa;
-}
-
 body {
-  height: 100vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   font-family: 'Quintessential', cursive;
 }
 
@@ -12214,8 +12200,27 @@ body {
   }
 }
 
-.c_style, .card {
+.c_style, body .card {
   background: #212529;
   color: #f8f9fa;
+}
+
+.c_style, body .card {
+  background: #212529;
+  color: #f8f9fa;
+  padding: 1em;
+}
+
+body {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 /*# sourceMappingURL=style.css.map */
